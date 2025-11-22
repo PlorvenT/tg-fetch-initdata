@@ -4,12 +4,16 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "start": "node getInitData.js"
+    "start": "node getInitData.js",
+    "start:qua": "node getInitDataQua.js",
+    "start:minimon": "node minimon.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.12.2",
+    "https-proxy-agent": "^7.0.6",
     "puppeteer": "^24.16.1"
   }
 }

@@ -81,7 +81,7 @@ async function getInitDataForUser(user) {
         console.log('⚠️ Could not click bot commands div:', err);
     }
 
-    async function waitForInitData(page, timeout = 10000, interval = 500) {
+    async function waitForInitData(page, timeout = 15000, interval = 500) {
         const start = Date.now();
 
         while (true) {
